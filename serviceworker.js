@@ -4,10 +4,10 @@ self.addEventListener('install' , (event)=>{
     caches.open("static")
     .then((Cache)=>{
         Cache.addAll([
-           'https://https://github.com/sgattani23/pwa/',
-           'https://https://github.com/sgattani23/pwa/css/style.css',
-           'https://https://github.com/sgattani23/pwa/js/script.js',
-           'https://https://github.com/sgattani23/pwa/index.html'
+           'https://github.com/sgattani23/pwa/',
+           'https://github.com/sgattani23/pwa/css/style.css',
+           'https://github.com/sgattani23/pwa/js/script.js',
+           'https://github.com/sgattani23/pwa/index.html'
  
         ]).catch((error)=>{
             console.log(error)
