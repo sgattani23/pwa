@@ -4,7 +4,7 @@
   "description": "Shopper",
   "orientation": "portrait",
 
-  "start_url": "https://github.com/sgattani23/pwa",
+  "start_url": "https://sgattani23.github.io/pwa/",
   "display": "standalone",
   "background_color": "#fafafa",
   "theme_color": "#fafafa",
