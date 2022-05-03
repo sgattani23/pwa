@@ -84,7 +84,7 @@ var swiper = new Swiper(".review-slider", {
 });
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('https://github.com/sgattani23/pwa/serviceworker.js')
+  navigator.serviceWorker.register('https://sgattani23.github.io/pwa/serviceworker.js')
   .then((registration) => {
   console.log("service worker registered")
   })
